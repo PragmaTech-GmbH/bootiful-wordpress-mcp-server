@@ -7,3 +7,9 @@ spring:
       server:
         name: bootiful-wordpress-mcp-server
         version: 1.0.0
+
+wordpress:
+  api:
+    url: ${WORDPRESS_API_URL:http://localhost/wp-json/wp/v2}
+    username: ${WORDPRESS_API_USERNAME}
+    password: ${WORDPRESS_API_PASSWORD}
