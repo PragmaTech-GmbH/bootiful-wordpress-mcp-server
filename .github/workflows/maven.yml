@@ -15,7 +15,7 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
-          distribution: coretto
+          distribution: corretto
           java-version: 24
           java-package: jdk
           cache: maven
